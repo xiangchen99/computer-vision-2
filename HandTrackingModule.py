@@ -11,7 +11,7 @@ mpDraw = mp.solutions.drawing_utils
 #show fps
 previousTime = 0
 currentTime = 0
-
+print("hello")
 while True:
     success, img = cap.read()
     imgRGB = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
